@@ -1,0 +1,235 @@
+header{
+    background-color: #43281C;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E0D4A8;
+    font-size: 15px;
+}
+.B-shop{
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 15px 0 15px;
+}
+.Cimg{
+    max-height: 30px;
+    margin-right: 2px;
+}
+body{
+    background-color: #EFF0F0;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Items-card{
+    background-color: #EEE1D5;
+    /* max-width: 40%; */
+    min-width: 12rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 40px 20px;
+    width: 50%;
+    box-shadow: 5px 5px 13px -2px #c2ae9a;
+}
+.N-P-card{
+    /* max-width: 40%; */
+    min-width: 12rem;
+    /* padding: 10px; */
+    border-radius: 5px;
+    /* margin: 40px 20px; */
+    width: 50%;
+}
+.Name-card{
+    padding: 10px;
+    width: 90%;
+    box-shadow: 5px 5px 13px -2px #c2ae9a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Payment-card{
+    padding: 10px;
+    width: 90%;
+    box-shadow: 5px 5px 13px -2px #c2ae9a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.li-items{
+    padding: 10px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 5fr 0.5fr;
+    grid-template-areas:
+        "Num Subj Subj Subj Subj Price"
+        ". Descript . . . .";
+    /* align-items: center; */
+}
+.card-title{
+    color: #976E47;
+    margin: 0;
+    padding: 10px;
+    font-size: 13px;
+    padding-bottom: 22px;
+    padding-top: 0;
+    font-weight: bold;
+}
+.li-Subject{
+    grid-area: Subj;
+    font-weight: bold;
+}
+.li-Price{
+    grid-area: Price;
+    font-weight: bold;
+    font-size: 14px;
+}
+.li-Discription{
+    grid-area: Descript;
+    color: #976E47;
+    font-size: 14px;
+}
+.li-Discription2{
+    grid-area: Descript2;
+    color: #976E47;
+    font-size: 14px;
+}
+.li-number{
+    grid-area: Num;
+    color: #707361;
+    font-size: 14px;
+}
+.border{
+    border-bottom: 2px solid #E6CDB4;
+}
+.ULL{
+    margin: 0px;
+    padding: 0px;
+}
+.li-items2{
+    grid-template-areas:
+        "Num Subj Subj Subj Subj Price"
+        ". Descript . . . ."
+        ". Descript2 . . . .";
+}
+.in{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+input{
+    border: 1px solid #976E47;
+    width: 93%;
+    border-radius: 100px;
+    height: 20px;
+    padding: 5px 10px;
+    background-color: #EEE1D5;  
+    margin-bottom: 14px;
+}
+input:focus {
+    outline: #9e662d8c auto 1px;
+}
+
+.input-lable{
+    background-color: #EEE1D5;
+    color: #976E47;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+}
+#CCV-input{
+    width: 40%;
+}
+.Subject{
+    grid-area: Subj;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.Price{
+    grid-area: Price;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+.Subject2{
+    grid-area: Subj2;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+.Price2{
+    grid-area: Price2;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+}
+.Subject3{
+    grid-area: Subj3;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+.Price3{
+    grid-area: Price3;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.B-pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 15px 15px 15px;
+}
+.line-1{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "Subj Price""Subj2 Price2""Subj3 Price3";
+    width: 30%;
+}
+button{
+    background-color: #DEB993;
+    border-radius: 100px;
+    color: #716A4E;
+    border: none;
+    padding: 10px;
+    width: 90%;
+}
+button:hover{
+    background-color: #d6a97c;
+}
+@media (max-width: 800px) {
+    .B-shop{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 15px 15px 0 15px;
+    }
+    .Items-card{
+        background-color: #EEE1D5;
+        /* max-width: 40%; */
+        min-width: 12rem;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5% auto;
+        width: 80%;
+        box-shadow: 5px 5px 13px -2px #c2ae9a;
+    }
+    .N-P-card{
+        min-width: 12rem;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .line-1{
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "Subj Price""Subj2 Price2""Subj3 Price3";
+        width: 50%;
+    }
+}
