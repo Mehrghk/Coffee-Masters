@@ -18,7 +18,7 @@
 
 <h2>At Last A Little About Me</h2>
 <p>I'm Mehrshad Gholami a freelancer of some sort.(I'm trying to become one actually)</p>
-<p>I've learned front-end skills but I fill like lacking in some parts.So I'm trying to improve my skills and find projects and start my work confidently</p>
+<p>I've learned front-end skills but I feell like lacking in some parts.So I'm trying to improve my skills and find projects and start my work confidently</p>
 <p>Hope you enjoyed this article</p>
 <p>This project is responsive</p>
 <p>Please follow me on github and if you were interested see my other repositories to see my other work samples😍</p>
